@@ -25,7 +25,7 @@ function App() {
 	}
 
 	function prev() {
-		setValue((prevValue) => (prevValue > 1 ? prevValue - 1 : 1));
+		setValue((prevValue) => prevValue - 1);
 	}
 	return (
 		<>
