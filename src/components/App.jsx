@@ -29,11 +29,11 @@ function App() {
 	}
 	return (
 		<>
-			<main className="w-11/12 mx-auto max-w-7xl flex flex-col gap-10">
-				<h1 className="text-green-500 font-semibold text-center text-4xl">
-					Rick y Morty
+			<main className="w-11/12 mx-auto max-w-7xl flex flex-col gap-10 mt-8">
+				<h1 className="text-green-500 font-bold text-center text-4xl">
+					Rick y Morty (Api)
 				</h1>
-				<section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4">
+				<section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6">
 					{character.map((char, index) => {
 						return <Cards info={char} key={index} />;
 					})}

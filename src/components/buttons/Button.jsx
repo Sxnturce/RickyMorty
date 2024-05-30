@@ -11,7 +11,7 @@ function Button({ next, prev, number }) {
 				>
 					-
 				</button>
-				<p className="h-full">{number}</p>
+				<p className="h-full text-white">{number}</p>
 				<button
 					onClick={next}
 					disabled={number === 42}
